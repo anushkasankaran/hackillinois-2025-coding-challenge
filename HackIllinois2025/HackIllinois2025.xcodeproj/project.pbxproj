@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D78761B52C3391AE00FC4910 /* HackIllinois2025App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761B42C3391AE00FC4910 /* HackIllinois2025App.swift */; };
+		D78761B72C3391AE00FC4910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761B62C3391AE00FC4910 /* ContentView.swift */; };
+		D78761B92C3391AE00FC4910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78761B82C3391AE00FC4910 /* Assets.xcassets */; };
+		D78761BC2C3391AE00FC4910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78761BB2C3391AE00FC4910 /* Preview Assets.xcassets */; };
+		D78761C42C3392FB00FC4910 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761C32C3392FB00FC4910 /* Event.swift */; };
+		D78761C62C33B40400FC4910 /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761C52C33B40400FC4910 /* ScheduleItem.swift */; };
+		D78761CA2C33B48500FC4910 /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761C92C33B48500FC4910 /* EventCard.swift */; };
+		D78761CC2C33B4AD00FC4910 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761CB2C33B4AD00FC4910 /* Schedule.swift */; };
+		D78761CE2C33BFD000FC4910 /* EventTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761CD2C33BFD000FC4910 /* EventTicket.swift */; };
+		D78761D02C3495DC00FC4910 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761CF2C3495DC00FC4910 /* DateTime.swift */; };
+		D78761D22C34965600FC4910 /* DateTimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761D12C34965600FC4910 /* DateTimeFormat.swift */; };
+		D78761D52C34A0C700FC4910 /* ScheduleBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761D42C34A0C700FC4910 /* ScheduleBanner.swift */; };
+		D78761D72C34A43B00FC4910 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78761D62C34A43B00FC4910 /* LaunchScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D78761B12C3391AE00FC4910 /* HackIllinois2025.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackIllinois2025.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78761B42C3391AE00FC4910 /* HackIllinois2025App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinois2025App.swift; sourceTree = "<group>"; };
+		D78761B62C3391AE00FC4910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D78761B82C3391AE00FC4910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D78761BB2C3391AE00FC4910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D78761C32C3392FB00FC4910 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D78761C52C33B40400FC4910 /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
+		D78761C92C33B48500FC4910 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
+		D78761CB2C33B4AD00FC4910 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		D78761CD2C33BFD000FC4910 /* EventTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTicket.swift; sourceTree = "<group>"; };
+		D78761CF2C3495DC00FC4910 /* DateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		D78761D12C34965600FC4910 /* DateTimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeFormat.swift; sourceTree = "<group>"; };
+		D78761D42C34A0C700FC4910 /* ScheduleBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleBanner.swift; sourceTree = "<group>"; };
+		D78761D62C34A43B00FC4910 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D78761AE2C3391AE00FC4910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D78761A82C3391AE00FC4910 = {
+			isa = PBXGroup;
+			children = (
+				D78761B32C3391AE00FC4910 /* HackIllinois2025 */,
+				D78761B22C3391AE00FC4910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D78761B22C3391AE00FC4910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78761B12C3391AE00FC4910 /* HackIllinois2025.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D78761B32C3391AE00FC4910 /* HackIllinois2025 */ = {
+			isa = PBXGroup;
+			children = (
+				D78761D32C34966D00FC4910 /* UI */,
+				D78761C22C3392EB00FC4910 /* Models */,
+				D78761B42C3391AE00FC4910 /* HackIllinois2025App.swift */,
+				D78761D12C34965600FC4910 /* DateTimeFormat.swift */,
+				D78761B82C3391AE00FC4910 /* Assets.xcassets */,
+				D78761BA2C3391AE00FC4910 /* Preview Content */,
+			);
+			path = HackIllinois2025;
+			sourceTree = "<group>";
+		};
+		D78761BA2C3391AE00FC4910 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D78761BB2C3391AE00FC4910 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D78761C22C3392EB00FC4910 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D78761C32C3392FB00FC4910 /* Event.swift */,
+				D78761C52C33B40400FC4910 /* ScheduleItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D78761D32C34966D00FC4910 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D78761CF2C3495DC00FC4910 /* DateTime.swift */,
+				D78761B62C3391AE00FC4910 /* ContentView.swift */,
+				D78761CD2C33BFD000FC4910 /* EventTicket.swift */,
+				D78761C92C33B48500FC4910 /* EventCard.swift */,
+				D78761CB2C33B4AD00FC4910 /* Schedule.swift */,
+				D78761D42C34A0C700FC4910 /* ScheduleBanner.swift */,
+				D78761D62C34A43B00FC4910 /* LaunchScreen.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D78761B02C3391AE00FC4910 /* HackIllinois2025 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78761BF2C3391AE00FC4910 /* Build configuration list for PBXNativeTarget "HackIllinois2025" */;
+			buildPhases = (
+				D78761AD2C3391AE00FC4910 /* Sources */,
+				D78761AE2C3391AE00FC4910 /* Frameworks */,
+				D78761AF2C3391AE00FC4910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackIllinois2025;
+			productName = HackIllinois2025;
+			productReference = D78761B12C3391AE00FC4910 /* HackIllinois2025.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D78761A92C3391AE00FC4910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D78761B02C3391AE00FC4910 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D78761AC2C3391AE00FC4910 /* Build configuration list for PBXProject "HackIllinois2025" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D78761A82C3391AE00FC4910;
+			productRefGroup = D78761B22C3391AE00FC4910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D78761B02C3391AE00FC4910 /* HackIllinois2025 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D78761AF2C3391AE00FC4910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78761BC2C3391AE00FC4910 /* Preview Assets.xcassets in Resources */,
+				D78761B92C3391AE00FC4910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D78761AD2C3391AE00FC4910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78761CC2C33B4AD00FC4910 /* Schedule.swift in Sources */,
+				D78761B72C3391AE00FC4910 /* ContentView.swift in Sources */,
+				D78761D72C34A43B00FC4910 /* LaunchScreen.swift in Sources */,
+				D78761C62C33B40400FC4910 /* ScheduleItem.swift in Sources */,
+				D78761D22C34965600FC4910 /* DateTimeFormat.swift in Sources */,
+				D78761C42C3392FB00FC4910 /* Event.swift in Sources */,
+				D78761B52C3391AE00FC4910 /* HackIllinois2025App.swift in Sources */,
+				D78761D52C34A0C700FC4910 /* ScheduleBanner.swift in Sources */,
+				D78761CA2C33B48500FC4910 /* EventCard.swift in Sources */,
+				D78761D02C3495DC00FC4910 /* DateTime.swift in Sources */,
+				D78761CE2C33BFD000FC4910 /* EventTicket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D78761BD2C3391AE00FC4910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D78761BE2C3391AE00FC4910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D78761C02C3391AE00FC4910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackIllinois2025/Preview Content\"";
+				DEVELOPMENT_TEAM = MNML8TT33H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anushkasankaran.HackIllinois2025;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D78761C12C3391AE00FC4910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackIllinois2025/Preview Content\"";
+				DEVELOPMENT_TEAM = MNML8TT33H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anushkasankaran.HackIllinois2025;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D78761AC2C3391AE00FC4910 /* Build configuration list for PBXProject "HackIllinois2025" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78761BD2C3391AE00FC4910 /* Debug */,
+				D78761BE2C3391AE00FC4910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78761BF2C3391AE00FC4910 /* Build configuration list for PBXNativeTarget "HackIllinois2025" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78761C02C3391AE00FC4910 /* Debug */,
+				D78761C12C3391AE00FC4910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D78761A92C3391AE00FC4910 /* Project object */;
+}
